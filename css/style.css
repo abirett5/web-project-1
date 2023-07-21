@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+:root {
+  --dark-one: #333;
+  --dark-two: #7a7a7a;
+  --main-color: #784cfb;
+  --light-one: #fff;
+  --light-two: #f9fafb;
+  --light-three: #f6f7fb;
+}
+
+/* ================================
+--- General Styles
+================================ */
 *,
 *::before,
 *::after {
@@ -25,4 +37,25 @@ ul {
 
 img {
   width: 100%;
+}
+
+/* ================================
+--- Header
+================================ */
+
+header {
+  width: 100%;
+  background-color: var(--light-three);
+  overflow: hidden;
+}
+
+nav {
+  width: 100%;
+  position: relative;
+  z-index: 50;
+}
+
+.container {
+  max-width: 92rem;
+  background-color: red;
 }
